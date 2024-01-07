@@ -1,2 +1,2 @@
-// a script to delete
-db.school.deletemany({ name: "Holberton school" });
+// a script to delete many by matching
+db.school.deleteMany({ name: "Holberton school" });
